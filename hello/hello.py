@@ -2,11 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 from flask import Flask
-import xmlsec
 
-# We don't actually need anything from xmlsec, but we wan't to make sure it is
-# installed.
-manager = xmlsec.KeysManager()
 
 app = Flask(__name__)
 
